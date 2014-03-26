@@ -23,7 +23,7 @@ map_filename="example.csv"
 out_dir=os.getcwd()
 out_filename=out_dir+"/example.html"
 
-
+# DATA
 province_count=[]
 with open(csv_file, 'rb') as csvfile:
     csv_data=csv.reader(csvfile)
