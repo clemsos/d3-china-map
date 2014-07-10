@@ -34,7 +34,7 @@ var path = d3.geo.path()
 var colorScale = d3.scale.linear()
            .domain(d3.extent(v))
            .interpolate(d3.interpolateHcl)
-           .range(["orange", "green"]);
+           .range(["white", "lightgrey"]);
 
 // add grey color if no values
 var color = function(i){ 
